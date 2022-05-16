@@ -1,0 +1,23 @@
+/*Start Features*/
+.features {
+  .icon-holder {
+    height: 200px;
+    svg {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .number {
+      font-size: 12rem;
+      color: $section;
+    }
+    .icon {
+      color: $green;
+    }
+  }
+  .feat {
+    h4 {
+      color: $yellow;
+    }
+  }
+}
+/*End Features*/

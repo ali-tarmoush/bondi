@@ -1,0 +1,32 @@
+.navbar {
+  background-color: $dark;
+  &-nav {
+    .nav-link {
+      color: $white;
+    }
+    .nav-link {
+      &.active {
+        @extend %color;
+      }
+      &:focus {
+        @extend %color;
+      }
+      &:hover {
+        @extend %color;
+      }
+    }
+  }
+  .search {
+    border-left: 1px solid $green;
+    svg {
+      color: $green;
+    }
+  }
+  &-toggler {
+    color: $white;
+    border-color: $white;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

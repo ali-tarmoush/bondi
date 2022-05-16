@@ -1,0 +1,26 @@
+/// Import Global Rules
+@import "layout/global-rules";
+///Import Variables
+@import "layout/variables";
+///Import Extends
+@import "layout/extends";
+///Import  Navbar
+@import "components/navbar";
+///Import Main Button
+@import "./components/main-btn";
+///Import Landing
+@import "./components/landing";
+///Import Features
+@import "./components/features";
+///Import Our Work
+@import "./components/our-work";
+///Import Stuff
+@import "./components/stuff";
+///Import Team
+@import "./components/team";
+///Import Project
+@import "./components/project";
+///Import Subscribe
+@import "./components/subscribe";
+///Import Footer
+@import "./components/footer";
